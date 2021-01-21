@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booststrap Project</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--font awsome-->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+    <!--script-->
+    <script src="/script.js" defer></script>
+</head>
+
+
+<body>
+    <!---------------------------navigation------------------------------------->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light nav-tabs fixed-top m-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/gif/logo.png" height="100px" alt=""></a>
+            <!--logo navabar-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navItems">
+                <span class="navbar-toggler-icon"></span></button>
+            <!--hemberger button-->
+
+            <div class="collapse navbar-collapse" id="navItems">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active rounded-circle
+                      border-bottom-0 border-right-0 border-warning" href="#">Home</a>
+                    <a class="nav-item nav-link rounded-circle
+                      border-top-0 border-left-0 border-right-0  border-warning" href="#">Test</a>
+                    <a class="nav-item nav-link rounded-circle
+                      border-warning border-top-0 border-right-0 border-left-0" href="#">Shop</a>
+                    <a class="nav-item nav-link rounded-circle
+                      border-warning border-bottom-0 border-left-0" href="#">Descover</a>
+                </div>
+                <!--navbar-->
+            </div><!-- collapse -->
+        </div>
+        <!--navbar container-->
+    </nav>
+    <!--navbar-->
+
+    <!---------------------------image slider--------------------------------------->
+    <div id="slides" class="carousel slide" style="margin-top: 80px;">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/background.png" class="w-100 " alt="backgroud1">
+                <div class="carousel-caption">
+                    <h1 class="display-3">WELCOME</h1>
+                    <h3>So Glade To Have You Here</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">Sign in</button>
+                    <button type="button" class="btn btn-light btn-lg">Contact</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/background2.png" class="d-flex w-100" alt="backgroud2">
+
+            </div>
+            <div class="carousel-item">
+                <img src="img/background3.png" class="d-block w-100" alt="background3">
+            </div>
+        </div>
+        <!--set background images-->
+        <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+                <span class="sr-only">Next</span>
+            </span>
+        </a>
+        <!--slide next btn-->
+
+        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+                <span class="sr-only">Next</span>
+            </span>
+        </a>
+        <!--slide prev btn-->
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <!--carousel indicators-->
+    </div>
+
+    <!---------------------------Jumbotron--------------------------------------->
+    <div class="jumbotron py-4">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 ">
+                    <p class="lead font-weight-lighter 
+                    text-center text-md-left text-secondary">
+                        Lorem ipsum dolor sit ameteaque
+                        repellendus, tempore, voluptatum, at
+                        alias reiciendis voluptas quo dolores!</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4"><button class="font-weight-bold btn btn-success"
+                        type="button">Visite Now
+                        !</button></div>
+            </div>
+        </div>
+
+        <!--jombotron container-->
+    </div>
+
+    <!---------------------------wellcom section--------------------------------------->
+    <div class="container">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Get Yourself To The Next Level</h2>
+                <hr>
+
+            </div>
+            <!--first col-->
+
+            <div class="col-12">
+                <p class="lead pt-2 font-italic blockquote">"Lorem ipsum dolor sit ameteaque repellendus, tempore,
+                    voluptatum, at
+                    alias reiciendi!"</p>
+                <span class="blockquote-footer text-right">John yeald</span>
+            </div>
+            <!--second col-->
+        </div>
+
+
+    </div>
+
+
+
+    <!---------------------------wellcom section--------------------------------------->
+    <div class="container padding">
+        <div class="row text-center pt-4 justify-content-center">
+            <div class="col-sm-10 col-md-6 col-lg-4 my-4">
+                <i class="fas fa-code display-4  text-danger" aria-hidden="true"></i>
+                <h3>HTML 5</h3>
+                <p>Lorem ipsum dolor sit ameteaque repellendus</p>
+                <a href="#"><span class="badge badge-pill badge-danger">more ...</span></a>
+
+                <div class="progress my-lg-3 mt-3 ">
+                    <div class="progress-bar progress-bar-striped
+                    progress-bar-animated w-75 bg-danger font-weight-bolder"><span class="ml-5">HTML</span></div>
+                </div>
+
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-4 my-4">
+                <i class="fas fa-bold display-4 text-primary" aria-hidden="true"></i>
+                <h3>BOOTSTRAP</h3>
+                <p>Lorem ipsum dolor sit ameteaque repellendus</p>
+                <a href="#"><span class="badge badge-pill badge-primary">more ...</span></a>
+                <div class="progress my-lg-3 mt-3 ">
+                    <div class="progress-bar progress-bar-striped
+                    progress-bar-animated w-75 bg-primary font-weight-bolder"><span class="ml-5">BOOTSTRAP</span></div>
+                </div>
+            </div>
+            <div class="col-sm-10  col-lg-4 my-4" aria-hidden="true">
+                <i class="fab fa-css3 display-4 text-success"></i>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit ameteaque repellendus</p>
+                <a href="#"><span class="badge badge-pill badge-success">more ...</span></a>
+                <div class="progress my-lg-3 mt-3 ">
+                    <div class="progress-bar progress-bar-striped
+                                progress-bar-animated w-100 bg-success font-weight-bolder">CSS</div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <!---------------------------two collum section--------------------------------------->
+    <div class="container">
+        <div class="row justify-content-md-center align-items-center">
+            <div class="col-sm-12 col-md-12 col-xl-6 text-center text-md-left">
+                <h3 class="text-capitalize ">if you buil it...</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+                    similique quos quaerat quod facilis cupiditate fugit, aliquid
+                    voluptatum praesentium explicabo ullam eveniet! Est, assumenda
+                    mollitia at in hic quidem pariatur.</p>
+                <div class="list-group   ">
+                    <li class="list-group-item list-group-item-action">
+                        first class <span class="badge badge-pill badge-success">3</span>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        second class <span class="badge badge-pill badge-success">15</span>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        therd class <span class="badge badge-pill badge-success">10</span>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        fourth class <span class="badge badge-pill badge-success">21</span>
+                    </li>
+                </div>
+                <button class="btn btn-primary mb-4 font-weight-bold mt-3">Apply Now</button>
+            </div>
+            <div class="col-sm-12 col-md-10  col-xl-6">
+                <img class="img-fluid rounded-lg" src="img/desk.png" alt="desktop">
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!---------------------------fixed background--------------------------------------->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed"></div>
+        </div>
+    </figure>
+    <!---------------------------hidden section--------------------------------------->
+    <div class="container text-center text-md-left">
+        <h3>Services</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+            <span>
+                <a data-toggle="collapse" href="#info" aria-expended="true"> See More...
+                    <i class="fa fa-plus-square" aria-hidden="true"></i></a>
+                <!--collapse link-->
+            </span>
+        </p>
+        <div id="info" class="container row collapse justify-content-center justify-content-md-around ">
+            <div class="card col-12 col-lg-5 p-0 ">
+                <div class="card-header">
+                    <h3>Services</h3>
+                </div>
+                <!--card header-->
+                <div class="card-body">
+                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                        saepe minima eaque inventore laborum cumque explicabo odio,numquam</p>
+                </div>
+                <!--card body-->
+                <div class="card-footer">
+                    <a href="#">get Now</a>
+                </div>
+                <!--card footer-->
+            </div>
+            <!--first card-->
+
+            <div class="card col-12 col-lg-5 p-0">
+                <div class="card-header">
+                    <h3>Services</h3>
+                </div>
+                <!--card header-->
+                <div class="card-body">
+                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+                        saepe minima eaque inventore laborum cumque explicabo odio,numquam</p>
+                </div>
+                <!--card body-->
+                <div class="card-footer">
+                    <a href="#">get Now</a>
+                </div>
+                <!--card footer-->
+            </div>
+            <!--second card-->
+        </div>
+        <!--collapse content-->
+
+    </div>
+    <!--hole container-->
+
+    <!---------------------------meet the team--------------------------------------->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 welcome">
+                <h2 class="display-4 text-center ">meet the team</h2>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!---------------------------meet the team--------------------------------------->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9 col-md-6 col-lg-4 col-xl-4">
+                <div class="card my-2 shadow">
+                    <img class="card-img-top" src="img/team1.png" alt="team">
+                    <div class="card-body  pt-2 px-1">
+                        <h4 class="card-title">John Dow</h4>
+                        <p class="card-text">Lorem ipsum dolorsititectosititecto, qusititecto, qu, quos cumque.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-primary">See Profile</button>
+                    </div>
+                </div>
+            </div>
+            <!--card one-->
+
+            <div class="col-9 col-md-6 col-lg-4 col-xl-4">
+                <div class="card my-2 shadow">
+                    <img class="card-img-top" src="img/team2.png" alt="team">
+                    <div class="card-body pt-2 px-1">
+                        <h4 class="card-title">John Dow</h4>
+                        <p class="card-text">Lorem ipsum dolorsititectosititecto, qusititecto, qu, quos cumque.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-primary">See Profile</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--card one-->
+
+            <div class="col-9 col-md-8 col-lg-4 col-xl-4">
+                <div class="card my-2 shadow">
+                    <img class="card-img-top" src="img/team3.png" alt="team">
+                    <div class="card-body  pt-2 px-1">
+                        <h4 class="card-title">John Dow</h4>
+                        <p class="card-text">Lorem ipsum dolorsititectosititecto, qusititecto, qu, quos cumque.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-primary">See Profile</button>
+                    </div>
+                </div>
+            </div>
+            <!--card one-->
+        </div>
+    </div>
+    <!---------------------------two column section--------------------------------------->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-xl-6">
+                <h3 class="text-capitalize">working time</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+                    similique quos quaerat quod facilis cupiditate fugit, aliquid
+                    voluptatum praesidem pariatur.</p>
+
+            </div>
+            <div class="col-sm-12 col-md-12 col-xl-6">
+                <img class="img-fluid" src="img/background2.png" alt="desktop">
+            </div>
+        </div>
+        <hr class="my-4">
+
+    </div>
+
+    <!---------------------------offers--------------------------------------->
+    <div class="container py-3">
+        <h2 class="text-center mb-5">Offers</h2>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-primary">
+                <tr class="table-primary">
+                    <th scope="col">Web apps</th>
+                    <th scope="col">Android</th>
+                    <th scope="col">Desktop</th>
+                    <th scope="col">Ceo</th>
+                    <th scope="col">Design</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="table-success">full Job</th>
+                    <td>50$</td>
+                    <td>70$</td>
+                    <td>-</td>
+                    <td>130$</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table-success">app Web</th>
+                    <td>-</td>
+                    <td>70$</td>
+                    <td>120$</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table-success">Apps</th>
+                    <td>50$</td>
+                    <td>70$</td>
+                    <td>-</td>
+                    <td>130$</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table-success">full Job</th>
+                    <td>50$</td>
+                    <td>70$</td>
+                    <td>-</td>
+                    <td>130$</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table-success">app Web</th>
+                    <td>-</td>
+                    <td>70$</td>
+                    <td>120$</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="table-success">Apps</th>
+                    <td>50$</td>
+                    <td>70$</td>
+                    <td>-</td>
+                    <td>130$</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!---------------------------connect--------------------------------------->
+
+    <div class="container">
+        <div class="row text-center social">
+            <h3 class="col-12">connect</h3>
+            <div class="col-12">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!---------------------------footer--------------------------------------->
+<footer>
+    <div class="container-fluid py-3">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <img class="rounded-circle" height="120px" src="img/gif/logo.png" alt="logo">
+                <hr class="light">
+                <h3>address</h3>
+                <hr class="light">
+                <address class="font-italic">
+                    TechOnTheNet.com
+                    123 Somewhere - St.
+                    City, State
+                </address>
+
+            </div>
+
+
+            <div class="col-md-6">
+                <hr class="light">
+                <h5>Contact Us</h5>
+                <hr class="light">
+                <fieldset class="form-group">
+                    <p class="form-text d-inline"></p>
+                    Name : <input type="text" class="form-control-sm form-control-label ">
+                    <br>
+                    <br>
+                    Email : <input type="text" class="form-control-sm form-control-label ">
+                    <br>
+                    <br>
+                    <textarea rows="5" cols="30" type="text" 
+                    class="form-control- form-control-label" placeholder="Your feedBack"></textarea>
+
+                </fieldset>
+
+            </div>
+        </div>
+        <hr class="light">
+        <div class="col-12 text-center">
+            <span>@</span> <a class="text-light" href="#"> Costa.com</a>
+        </div>
+    </div>
+</footer>
+
+</html>

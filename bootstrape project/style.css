@@ -1,0 +1,253 @@
+/*============================================*/
+            /*global style*/
+/*============================================*/
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        color: #222;
+    }
+
+/*============================================*/
+            /*navbar*/
+/*============================================*/   
+    .navbar-light {
+        margin: 10px;
+    }
+
+    .nav-link{
+        font-size: 1.1rem;
+        color:white ;
+        width: 125px;
+        text-align: center;
+    }
+
+    .navbar-brand h1 {
+        color: violet;
+    }
+
+    .nav-link:hover,
+    .navbar-brand h1:hover{
+        transition: ease-in-out .3s;
+        border-color: #dd4cdd !important;
+        color: #dd4cdd !important;
+    }
+
+    /******using javascript to manipulate**********/
+    .nav-link.active {
+        border-color: #dd4cdd !important;
+        color: #dd4cdd !important;
+    }
+
+    /*============================================*/
+            /*slider*/
+/*============================================*/  
+    .carousel-inner img {
+        height: 68vh;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .carousel-caption h1 {
+        font-weight: 400;
+        text-shadow: 1px 1px 10px #000;
+    }
+
+    .carousel-caption h3 {
+        text-shadow: 4px 4px 15px #000;
+    }
+
+    .btn-light {
+        background-color: #8916949e;
+        color: white;
+    }
+
+    .btn {
+        font-weight: 500;
+    }
+
+    /*============================================*/
+            /*jumbtron*/
+    /*============================================*/  
+    .jumbotron {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    /*============================================*/
+            /*wellcom section*/
+    /*============================================*/  
+    .welcome {
+        padding: 30px 0;
+    }
+
+    .welcome hr {
+        border-top: 2px solid rgba(130, 130, 130, 0.576);
+        width: 30%;
+    }
+    /*============================================*/
+            /*social media*/
+    /*============================================*/  
+    .social a {
+        display: inline-block;
+        padding: 40px 50px;
+        font-size: 5em;
+    }
+
+    .fa-facebook {
+        color: #3b5998;
+    }
+
+    .fa-twitter {
+        color: #00aced;
+    }
+
+    .fa-google-plus-g {
+        color: #dd4b39;
+    }
+
+    .fa-instagram {
+        color: #e91c48e7;
+    }
+
+    .fa-facebook:hover,
+    .fa-twitter:hover,
+    .fa-google-plus-g:hover,
+    .fa-instagram:hover {
+        color: #d5d5d5;
+    }
+
+    /*============================================*/
+            /*footer*/
+    /*============================================*/  
+    footer {
+        background-color: #3f3f3f;
+        color: #d5d5d5;
+    }
+
+    hr.light {
+        border-top: 1px solid #d5d5d5;
+        width: 75%;
+    }
+
+    /*============================================*/
+            /*media queries*/
+    /*============================================*/ 
+
+    @media (max-width: 992px) {
+        .social a {
+            font-size: 2.5em;
+        }
+
+        .welcome h2 {
+            font-size: 2.4em;
+        }
+
+        .carousel-inner img {
+            height: 60vh;
+        }
+
+    }
+
+/*==========================================*/
+    @media (max-width: 768px) {
+
+        p {
+            font-size: 0.8em !important;
+        }
+
+        h2 {
+            font-size: 1.9em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        h4 {
+            font-size: 1em;
+        }
+
+         .nav-link {
+        font-size: 0.5rem;
+        width: 80px;
+    }
+
+        .btn {
+            font-size: 0.3em;
+        }
+
+        .carousel-caption h1 {
+            font-size: 2em;
+        }
+
+        .carousel-caption h3 {
+            font-size: 1em;
+        }
+
+        .carousel-caption button {
+            font-size: 0.5em;
+        }
+
+        .welcome h2 {
+            font-size: 1.1em;
+        }
+
+
+        .jumbotron button {
+            font-size: 0.7rem;
+        }
+
+        .social a {
+            padding: 10px 20px;
+            font-size: 1.8em;
+        }
+
+        .carousel-inner img {
+            height: 50vh;
+        }
+        .navbar-nav {
+            align-items: center;
+        }
+        #info {
+            width: 105%;
+        }
+
+        .table {
+            font-size: 0.3em;
+        }
+    }
+
+/*==========================================*/
+    @media (max-width: 400px) {
+
+        .navbar-brand {
+            display: none;
+        }
+
+        .carousel-caption h1 {
+            font-size: 1.5em;
+        }
+
+        .carousel-caption h3 {
+            font-size: 0.5em;
+        }
+
+        .carousel-caption button {
+            font-size: 0.1em;
+            padding: 5px 10px;
+        }
+
+        .btn {
+            font-size: 0.1em;
+            padding: 5px 10px;
+        }
+        #info {
+            width: 115%;
+        }
+    }
+
